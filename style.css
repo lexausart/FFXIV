@@ -13,14 +13,13 @@ h1{
   -webkit-column-gap:20px;
   -moz-column-gap:20px;
   column-gap:20px;
-  
 }
 @media (max-width:1200px){
   #gallery{
   -webkit-column-count:3;
   -moz-column-count:3;
   column-count:3;
-    writing-mode: vertical-lr;
+    
   -webkit-column-gap:20px;
   -moz-column-gap:20px;
   column-gap:20px;
@@ -44,8 +43,18 @@ h1{
   column-count:1;
 }  
 }
-#gallery img{
+#gallery img,#gallery video {
   width:100%;
   height:auto;
   margin: 4% auto;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.modal-img,.model-vid{
+  width:100%;
+  height:auto;
+}
+.modal-body{
+  padding:0px;
 }
