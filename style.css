@@ -43,7 +43,13 @@ h1{
   column-count:1;
 }  
 }
-
+#gallery img,#gallery video {
+  width:100%;
+  height:auto;
+  margin: 4% auto;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
 .modal-img,.model-vid{
   width:100%;
   height:auto;
