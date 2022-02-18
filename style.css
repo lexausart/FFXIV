@@ -57,3 +57,10 @@ h1{
 .modal-body{
   padding:0px;
 }
+body {
+  font-family: "Raleway", Arial, sans-serif
+}
+
+.w3-row img {
+  margin-bottom: -8px
+}
